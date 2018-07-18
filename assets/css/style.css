@@ -1,3 +1,119 @@
-body {
-    background-image: url();
+/* body pushes page to edges and font stuff */
+body{
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin: auto;
+    overflow: scroll;
+}
+
+/* controls header */
+header {
+    width: 960px;
+    /* margin-top: 10px; */
+}
+
+/* for h1 in header with my name */
+.name {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    padding: 20px 0 19px 0;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+/* changes the headers in the main box */
+.head {
+    color: #4aaaa5;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    margin: 0;
+}
+
+/* wrapper entire body, holds background image*/
+main {
+    background-image: url(Images/tic-tac-toe.png);
+    width: 100%;
+    padding-bottom: 100px;
+    margin: 0;
+    border-top: 3px solid #dddddd;
+}
+
+.navbar {
+    text-align: center;
+}
+
+/* bootstrap border in content box */
+.my-4 {
+    background-color: #dddddd;
+    padding: 0;
+    margin-top: 15px;
+}
+
+/* wraps page content */
+section {
+    background-color: #ffffff;
+    margin: 50px 0 100px 0;
+    padding: 20px 0 40px 0;
+    width: 960px;
+    border: 1px solid #cccccc;
+}
+
+/* adjusts text in section box for index page */
+p {
+    line-height: 30px;
+}
+
+/* adjusts size of form box */
+form {
+    margin-top: 10px;
+}
+
+/* adjusts individual items in form box */
+.form-group {
+    padding: 0;
+    margin:0;
+}
+
+/* submit button on form page */
+.btn {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+/* adjusts profile pic */
+.cat {
+    height: 170px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+/* adjust image size in portfolio */
+img {
+    height: auto;
+    width: 100%;
+}
+
+/* banners for pics in portfolio */
+.tags {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    position: relative;
+    bottom: 70px;
+}
+
+/* bottom grey bar */
+footer {
+    color: #dddddd;
+    background-color: #666666;
+    font-size: 8px;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+    padding-top: 15px;
+    width: 100%;
 }
