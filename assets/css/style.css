@@ -1,15 +1,7 @@
 /* body pushes page to edges and font stuff */
-body{
+body {
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    margin: auto;
-    overflow: scroll;
-}
-
-/* controls header */
-header {
-    width: 960px;
-    /* margin-top: 10px; */
 }
 
 /* for h1 in header with my name */
@@ -32,15 +24,11 @@ header {
 
 /* wrapper entire body, holds background image*/
 main {
-    background-image: url(Images/tic-tac-toe.png);
+    background-image: url(../images/tic-tac-toe.png);
     width: 100%;
     padding-bottom: 100px;
     margin: 0;
     border-top: 3px solid #dddddd;
-}
-
-.navbar {
-    text-align: center;
 }
 
 /* bootstrap border in content box */
@@ -60,7 +48,7 @@ section {
 }
 
 /* adjusts text in section box for index page */
-p {
+.bio {
     line-height: 30px;
 }
 
@@ -84,8 +72,8 @@ form {
 
 /* adjusts profile pic */
 .cat {
-    height: 170px;
-    width: 250px;
+    height: 33%;
+    width: 33%;
     margin-right: 10px;
 }
 
@@ -97,6 +85,7 @@ img {
 
 /* banners for pics in portfolio */
 .tags {
+    display: inline-block;
     color: #ffffff;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
