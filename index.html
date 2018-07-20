@@ -7,91 +7,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Caveat:700|Covered+By+Your+Grace|Dekko|Nanum+Brush+Script|Nothing+You+Could+Do|Permanent+Marker|Swanky+and+Moo+Moo" rel="stylesheet">
     <!-- Custom and Reset CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css"/>
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
 </head>
 <body>
 
-<header class="container">
-    
-    <div class="row">
-        
-        <div class="text-center col-lg-4 col-md-6 col-sm-12">
-            <h1 class="name">Paul Swiergosz</h1>
-        </div>
-        
-        <div class="align-self-center col-lg-3 offset-lg-5 col-md-4 offset-md-2 col-sm-12">          
-            <nav class="navbar navbar-light navbar-expand">
-                <ul class="navbar-nav">
-                    <li class="navbar-item">
-                        <a href="index.html" class="nav-link">About</a>
-                    </li>
-                    
-                    <li class="navbar-item">
-                        <a href="portfolio.html" class="nav-link">Portfolio</a>
-                    </li>
+    <main class="container">
 
-                    <li class="navbar-item">
-                        <a href="contact.html" class="nav-link">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-    </div>
-
-</header>
-
-<main>
-
-    <div class="container">
-
+        <!-- Contact Card -->
         <div class="row">
 
-            <div class="col-md-8">
-
-                <section class="container">
-                    
-                    <div class="row">
-                        <div class="col-lg-8 col-md-8 col-sm-11">
-                            <h1 class="head">About Me</h1>
+            <div class="col-12 contact">
+                <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                    <div class="flipper">
+                        <div class="front">
+                            <!-- front content -->
+                            <h1 class="name">Paul Swiergosz</h1>
+                        </div>
+                        <div class="back">
+                            <!-- back content -->
                         </div>
                     </div>
-                    
-                    <hr class="my-4">
-
-                    <div class="row">
-
-                        <div class="col-md bio">
-                            <p><img class="cat" src="assets/images/cat.jpg" align="left">Vivamus cursus libero id mi consequat gravida. Donec tempor dictum feugiat. Nulla non urna in purus faucibus congue. Phasellus ipsum eros, feugiat sed mauris sed, tincidunt fringilla ante. Maecenas quis libero dapibus, elementum tellus eget, consectetur sem. Aenean ac magna justo. Sed quis orci at tellus venenatis finibus sit amet sed urna. Duis at mattis diam.</p>
-                            
-                            <p>Vivamus cursus libero id mi consequat gravida. Donec tempor dictum feugiat. Nulla non urna in purus faucibus congue. Phasellus ipsum eros, feugiat sed mauris sed, tincidunt fringilla ante. Maecenas quis libero dapibus, elementum tellus eget, consectetur sem. Aenean ac magna justo. Sed quis orci at tellus venenatis finibus sit amet sed urna. Duis at mattis diam.</p>
-                            
-                            <p>Vivamus cursus libero id mi consequat gravida. Donec tempor dictum feugiat. Nulla non urna in purus faucibus congue. Phasellus ipsum eros, feugiat sed mauris sed, tincidunt fringilla ante. Maecenas quis libero dapibus, elementum tellus eget, consectetur sem. Aenean ac magna justo. Sed quis orci at tellus venenatis finibus sit amet sed urna. Duis at mattis diam.</p>
-                        </div>
-                        
-                    </div>
-
-                </section>
-
+                </div>
             </div>
 
         </div>
 
-    </div>
+        <div class="row">
 
-</main>
+            <div class="col-lg-6 portfolio">
+                <!-- Portfolio Header -->
+                <h1 class="portfolio-header">Spin My Portfolio</h1>
+                <!-- Swiper -->
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/fallout.jpg">
+                            <a class="tags" href="https://swiergoszp.github.io/TriviaGame/" target="_blank">Valut 101 G.O.A.T.</a>
+                        </div>  
+                        <div class="swiper-slide">
+                            <img src="assets/images/starwars.jpg">
+                            <a class="tags" href="https://swiergoszp.github.io/unit-4-rpg/" target="_blank">Star Wars RPG</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/gas.jpg">
+                            <a class="tags" href="https://swiergoszp.github.io/group-project1/" target="_blank">Kid Reads</a>
+                        </div> 
+                        <div class="swiper-slide">
+                            <img src="assets/images/avengers.jpg">
+                            <a class="tags" href="https://swiergoszp.github.io/Word-Guess-Game/" target="_blank">Avengers Word Guess</a>
+                        </div> 
+                        <div class="swiper-slide">
+                            <img src="assets/images/link.jpg">
+                            <a class="tags" href="https://swiergoszp.github.io/unit-4-game/" target="_blank">Link's Crystal Challenge</a>
+                        </div>
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
 
-<footer class="fixed-bottom">
+            <div class="col-lg-6 notebook">
+                <h1 class="stickynote-header">The "Sticky-Note" Version</h1>
+                <h1 class="stickynote">-Spin my portfolio cube, or peel the sticky notes to get going</h1>
+            </div>
 
-    <div class="row">
-        <div class="col">
-            <p class="text-center">Copyright&#169</p>
         </div>
-    </div>
 
-</footer>
-    
+        <div class="row bio-header">
+            <div class="col-12">
+                <h1>The Long Version</h1>
+            </div>
+        </div>
+
+        <div class="row bio">
+            <div class="col-12">
+                <p><img class="cat" src="assets/images/cat.jpg" align="left">Vivamus cursus libero id mi consequat gravida. Donec tempor dictum feugiat. Nulla non urna in purus faucibus congue. Phasellus ipsum eros, feugiat sed mauris sed, tincidunt fringilla ante. Maecenas quis libero dapibus, elementum tellus eget, consectetur sem. Aenean ac magna justo. Sed quis orci at tellus venenatis finibus sit amet sed urna. Duis at mattis diam.</p>
+                <p>Vivamus cursus libero id mi consequat gravida. Donec tempor dictum feugiat. Nulla non urna in purus faucibus congue. Phasellus ipsum eros, feugiat sed mauris sed, tincidunt fringilla ante. Maecenas quis libero dapibus, elementum tellus eget, consectetur sem. Aenean ac magna justo. Sed quis orci at tellus venenatis finibus sit amet sed urna. Duis at mattis diam.</p>                
+            </div>
+        </div>
+
+    </main>
+
+<!-- JQuery -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Swiper -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.esm.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.esm.bundle.js"></script>
+<!-- Custom JS -->
+<script src="assets/javascript/main.js"></script>
+
 </body>
 </html>

@@ -1,108 +1,158 @@
 /* body pushes page to edges and font stuff */
 body {
-    color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url(../images/background.png);
 }
 
 /* for h1 in header with my name */
 .name {
-    color: #ffffff;
-    background-color: #4aaaa5;
-    padding: 20px 0 19px 0;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin: 0;
-}
-
-/* changes the headers in the main box */
-.head {
-    color: #4aaaa5;
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin: 0;
-}
-
-/* wrapper entire body, holds background image*/
-main {
-    background-image: url(../images/tic-tac-toe.png);
     width: 100%;
-    padding-bottom: 100px;
-    margin: 0;
-    border-top: 3px solid #dddddd;
+    font-family: 'Nothing You Could Do', cursive;
 }
 
-/* bootstrap border in content box */
-.my-4 {
-    background-color: #dddddd;
-    padding: 0;
-    margin-top: 15px;
+/* contact card */
+.contact {
+    color: #EDF5E1;
+    background-color: #05386B;
+    text-align: center;
 }
 
-/* wraps page content */
-section {
-    background-color: #ffffff;
-    margin: 50px 0 100px 0;
-    padding: 20px 0 40px 0;
-    width: 960px;
-    border: 1px solid #cccccc;
+/* ************************************************************************ */
+/* Start Portfolio Cube */
+/* ************************************************************************ */
+
+/* wrapper */
+.portfolio {
+    margin: 25px 0 25px 0;
+    text-align: center;
 }
 
-/* adjusts text in section box for index page */
-.bio {
-    line-height: 30px;
-}
-
-/* adjusts size of form box */
-form {
-    margin-top: 10px;
-}
-
-/* adjusts individual items in form box */
-.form-group {
-    padding: 0;
-    margin:0;
-}
-
-/* submit button on form page */
-.btn {
-    background-color: #4aaaa5;
-    color: #ffffff;
-    border-color: #ffffff;
-}
-
-/* adjusts profile pic */
-.cat {
-    height: 33%;
-    width: 33%;
-    margin-right: 10px;
-}
-
-/* adjust image size in portfolio */
+/* adjust image size */
 img {
     height: auto;
     width: 100%;
 }
 
-/* banners for pics in portfolio */
+/* banners for pics*/
 .tags {
     display: inline-block;
-    color: #ffffff;
-    background-color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #EDF5E1;
+    font-family: 'Nothing You Could Do', cursive;
+    background-color: #05386B;
     width: 100%;
     text-align: center;
-    padding: 10px 0px 10px 0px;
+    padding: 10px;
     position: relative;
     bottom: 70px;
 }
 
-/* bottom grey bar */
-footer {
-    color: #dddddd;
-    background-color: #666666;
-    font-size: 8px;
-    text-align: center;
-    border-top: 5px solid #4aaaa5;
-    padding-top: 15px;
-    width: 100%;
+.tags:hover {
+    color: #8EE4AF;
+    text-decoration: none;
 }
+
+/* banner above cube */
+.portfolio-header {
+    color: #EDF5E1;
+    font-family: 'Nothing You Could Do', cursive;
+    background-color: #05386B;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+/* size of cube */
+.swiper-container {
+    width: 400px;
+    height: 400px;
+}
+
+/* each item in cube */
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    /* shadow */
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+/* ************************************************************************ */
+/* End Portfolio Cube */
+/* ************************************************************************ */
+
+
+/* ************************************************************************ */
+/* Start Sticky Note */
+/* ************************************************************************ */
+
+/* wrapper */
+.notebook {
+    margin: 25px 0 25px 0;
+}
+
+/* note card mod */
+.stickynote {
+    margin: 0;
+    padding: 20px;
+    height: 400px;
+    width: 400px;
+    background-color: #8EE4AF;
+    font-family: 'Permanent Marker', cursive;
+    color: #05386B;
+    font-size: 300%;
+    /* shadow */
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+/* banner above cube */
+.stickynote-header {
+    text-align: center;
+    color: #EDF5E1;
+    font-family: 'Nothing You Could Do', cursive;
+    background-color: #05386B;
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px 0;
+}
+
+/* ************************************************************************ */
+/* End Sticky Note */
+/* ************************************************************************ */
+
+
+/* ************************************************************************ */
+/* Start Bio */
+/* ************************************************************************ */
+
+/* header */
+.bio-header {
+    background-color: #05386B;
+    color: #EDF5E1;
+    font-family: 'Nothing You Could Do', cursive;
+    text-align: center;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+/* wraps content */
+.bio {
+    background-color: #05386B;
+    margin: 25px 0 25px 0;
+    padding: 20px 0 20px 0;
+    color: #EDF5E1;
+    line-height: 30px;
+}
+
+/* adjusts profile pic */
+.cat {
+    height: 25%;
+    width: 25%;
+    margin-right: 10px;
+}
+
+/* ************************************************************************ */
+/* End Bio */
+/* ************************************************************************ */
