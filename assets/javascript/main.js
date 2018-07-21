@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     var swiper = new Swiper('.swiper-container', {
         effect: 'cube',
         grabCursor: true,
@@ -12,4 +13,5 @@ $(document).ready(function() {
             el: '.swiper-pagination',
             },
     });
+    
 });

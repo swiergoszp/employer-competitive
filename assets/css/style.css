@@ -4,18 +4,48 @@ body {
     background-image: url(../images/background.png);
 }
 
+/* ************************************************************************ */
+/* End Contact Card */
+/* ************************************************************************ */
+
 /* for h1 in header with my name */
 .name {
-    width: 100%;
+    /* width: 100%; */
     font-family: 'Nothing You Could Do', cursive;
 }
 
 /* contact card */
 .contact {
     color: #EDF5E1;
-    background-color: #05386B;
+    background-image: url(../images/blue-background.png);
     text-align: center;
+    margin-top: 25px;
 }
+
+.front {
+
+}
+
+.back {
+
+}
+
+.card-link {
+    color: #EDF5E1;
+}
+
+.card-link:hover {
+    color: #8EE4AF;
+}
+
+.email {
+    margin: 0 10px 0 10px;
+}
+
+/* ************************************************************************ */
+/* End Contact Card */
+/* ************************************************************************ */
+
 
 /* ************************************************************************ */
 /* Start Portfolio Cube */
@@ -38,7 +68,7 @@ img {
     display: inline-block;
     color: #EDF5E1;
     font-family: 'Nothing You Could Do', cursive;
-    background-color: #05386B;
+    background-image: url(../images/blue-background.png);
     width: 100%;
     text-align: center;
     padding: 10px;
@@ -55,7 +85,7 @@ img {
 .portfolio-header {
     color: #EDF5E1;
     font-family: 'Nothing You Could Do', cursive;
-    background-color: #05386B;
+    background-image: url(../images/blue-background.png);
     width: 100%;
     padding: 10px;
     margin: 0 0 10px 0;
@@ -63,15 +93,14 @@ img {
 
 /* size of cube */
 .swiper-container {
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
 }
 
 /* each item in cube */
 .swiper-slide {
     background-position: center;
     background-size: cover;
-    /* shadow */
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -89,19 +118,20 @@ img {
 /* wrapper */
 .notebook {
     margin: 25px 0 25px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 /* note card mod */
 .stickynote {
-    margin: 0;
-    padding: 20px;
-    height: 400px;
-    width: 400px;
+    padding-left: 15px;
+    height: 300px;
+    width: 300px;
     background-color: #8EE4AF;
     font-family: 'Permanent Marker', cursive;
     color: #05386B;
-    font-size: 300%;
-    /* shadow */
+    font-size: 125%;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
     box-shadow: 0 10px 6px -6px #777;
@@ -112,7 +142,7 @@ img {
     text-align: center;
     color: #EDF5E1;
     font-family: 'Nothing You Could Do', cursive;
-    background-color: #05386B;
+    background-image: url(../images/blue-background.png);
     width: 100%;
     padding: 10px;
     margin: 0 0 10px 0;
@@ -129,7 +159,7 @@ img {
 
 /* header */
 .bio-header {
-    background-color: #05386B;
+    background-image: url(../images/blue-background.png);
     color: #EDF5E1;
     font-family: 'Nothing You Could Do', cursive;
     text-align: center;
@@ -139,7 +169,7 @@ img {
 
 /* wraps content */
 .bio {
-    background-color: #05386B;
+    background-image: url(../images/blue-background.png);
     margin: 25px 0 25px 0;
     padding: 20px 0 20px 0;
     color: #EDF5E1;
