@@ -1,2 +1,3 @@
-# bootstrap-portfolio
-hw assignment 2
+# Personal Portfolio Site
+
+https://swiergoszp.github.io/employer-competitive/
